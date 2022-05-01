@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        android:title="search"
+        />
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        app:showAsAction="never"
+        android:title="play"
+        />
+
+    <item
+        android:id="@+id/pause"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="never"
+        android:title="pause"/>
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="always"
+        android:title="call"/>
+
+
+</menu>

@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profileactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_profileactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splashscreensctivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_splashscreensctivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lifecycle.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_lifecycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_customdialogactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_customdialogactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_2.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\fragment_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_broadcastimageactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_broadcastimageactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bluetooth.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_frameactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_frameactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sharedactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_sharedactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_linearlayout.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_linearlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sensoractivity1.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_sensoractivity1.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_proximityactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_proximityactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_relativelayoutactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_relativelayoutactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_backgroundserviceactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_backgroundserviceactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_scrollactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_scrollactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cardlayoutactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_cardlayoutactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_optionmenuactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_optionmenuactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intentactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_intentactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_listadapteractivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_listadapteractivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_profile.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_create_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_batteryshowactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_batteryshowactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_alertdialogactivity.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\activity_alertdialogactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_1.xml",
+        "source": "C:\\Users\\150063\\AndroidStudioProjects\\jniactivity\\app\\src\\main\\res\\layout\\fragment_1.xml"
+    }
+]

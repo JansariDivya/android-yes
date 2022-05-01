@@ -1,0 +1,311 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jniactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:7:22-71
+14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+14-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:8:22-73
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <application
+29-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:10:5-124:19
+30        android:allowBackup="true"
+30-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:11:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\150063\.gradle\caches\transforms-3\5ee4f0ab8b666b16181ba2644c46e7cd\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:12:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:13:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:14:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:15:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Jniactivity" >
+38-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:16:9-49
+39        <activity
+39-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:17:9-19:40
+40            android:name="com.example.jniactivity.profileactivity"
+40-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:18:13-44
+41            android:exported="false" />
+41-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:19:13-37
+42        <activity
+42-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:20:9-22:40
+43            android:name="com.example.jniactivity.CreateProfile"
+43-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:21:13-42
+44            android:exported="false" />
+44-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:22:13-37
+45        <activity
+45-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:23:9-25:40
+46            android:name="com.example.jniactivity.sharedactivity"
+46-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:24:13-43
+47            android:exported="false" />
+47-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:25:13-37
+48        <activity
+48-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:26:9-28:40
+49            android:name="com.example.jniactivity.relativelayoutactivity"
+49-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:27:13-51
+50            android:exported="false" />
+50-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:28:13-37
+51        <activity
+51-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:29:9-31:40
+52            android:name="com.example.jniactivity.customdialogactivity"
+52-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:30:13-49
+53            android:exported="false" />
+53-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:31:13-37
+54        <activity
+54-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:32:9-34:40
+55            android:name="com.example.jniactivity.alertdialogactivity"
+55-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:33:13-48
+56            android:exported="false" />
+56-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:34:13-37
+57        <activity
+57-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:35:9-44:20
+58            android:name="com.example.jniactivity.splashscreensctivity"
+58-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:36:13-49
+59            android:exported="true"
+59-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:37:13-36
+60            android:theme="@style/splash" >
+60-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:38:13-42
+61            <intent-filter>
+61-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:39:13-43:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:40:17-69
+62-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:40:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:42:17-77
+64-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:42:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:45:9-47:40
+68            android:name="com.example.jniactivity.frameactivity"
+68-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:46:13-42
+69            android:exported="false" />
+69-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:47:13-37
+70        <activity
+70-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:48:9-50:40
+71            android:name="com.example.jniactivity.intentactivity"
+71-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:49:13-43
+72            android:exported="false" />
+72-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:50:13-37
+73        <activity
+73-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:51:9-53:40
+74            android:name="com.example.jniactivity.scrollactivity"
+74-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:52:13-43
+75            android:exported="false" />
+75-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:53:13-37
+76        <activity
+76-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:54:9-56:40
+77            android:name="com.example.jniactivity.linearlayout"
+77-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:55:13-41
+78            android:exported="false" />
+78-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:56:13-37
+79        <activity
+79-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:57:9-59:40
+80            android:name="com.example.jniactivity.cardlayoutactivity"
+80-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:58:13-47
+81            android:exported="false" />
+81-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:59:13-37
+82
+83        <service android:name="com.example.jniactivity.backgroundservice" />
+83-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:61:9-54
+83-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:61:18-51
+84
+85        <receiver android:name="com.example.jniactivity.broadcast" />
+85-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:63:9-47
+85-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:63:19-44
+86
+87        <activity
+87-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:65:9-76:20
+88            android:name="com.example.jniactivity.broadcastimageactivity"
+88-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:66:13-51
+89            android:exported="true"
+89-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:67:13-36
+90            android:label="jniactivity" >
+90-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:68:13-40
+91            <intent-filter>
+91-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:69:13-75:29
+92                <action android:name="android.intent.action.SEND" />
+92-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:70:17-69
+92-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:70:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:72:17-76
+94-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:72:27-73
+95
+96                <data android:mimeType="image/*" />
+96-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:74:17-52
+96-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:74:23-49
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:77:9-79:40
+100            android:name="com.example.jniactivity.listadapteractivity"
+100-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:78:13-48
+101            android:exported="false" />
+101-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:79:13-37
+102        <activity
+102-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:80:9-82:40
+103            android:name="com.example.jniactivity.batteryshowactivity"
+103-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:81:13-48
+104            android:exported="false" />
+104-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:82:13-37
+105        <activity
+105-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:83:9-85:40
+106            android:name="com.example.jniactivity.backgroundserviceactivity"
+106-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:84:13-54
+107            android:exported="false" />
+107-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:85:13-37
+108        <activity
+108-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:86:9-88:40
+109            android:name="com.example.jniactivity.optionmenuactivity"
+109-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:87:13-47
+110            android:exported="false" />
+110-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:88:13-37
+111        <activity
+111-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:89:9-91:40
+112            android:name="com.example.jniactivity.lifecycle"
+112-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:90:13-38
+113            android:exported="false" />
+113-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:91:13-37
+114        <!--
+115             TODO: Before you run your application, you need a Google Maps API key.
+116
+117             To get one, follow the directions here:
+118
+119                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+120
+121             Once you have your API key (it starts with "AIza"), define a new property in your
+122             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+123             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+124        -->
+125        <meta-data
+125-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:103:9-105:71
+126            android:name="com.google.android.geo.API_KEY"
+126-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:104:13-58
+127            android:value="AIzaSyBhHRz_Tj8mo_KPrvrwT_mk2z4kJ3FPlBc" />
+127-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:105:13-68
+128
+129        <activity
+129-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:107:9-110:59
+130            android:name="com.example.jniactivity.MapsActivity"
+130-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:108:13-41
+131            android:exported="true"
+131-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:109:13-36
+132            android:label="@string/title_activity_maps" />
+132-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:110:13-56
+133        <activity
+133-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:111:9-113:39
+134            android:name="com.example.jniactivity.proximityactivity"
+134-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:112:13-46
+135            android:exported="true" />
+135-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:113:13-36
+136        <activity
+136-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:114:9-116:39
+137            android:name="com.example.jniactivity.sensoractivity1"
+137-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:115:13-44
+138            android:exported="true" />
+138-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:116:13-36
+139        <activity
+139-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:117:9-120:44
+140            android:name="com.example.jniactivity.MainActivity"
+140-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:118:13-41
+141            android:exported="true"
+141-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:119:13-36
+142            android:theme="@style/splash" />
+142-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:120:13-42
+143        <activity
+143-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:121:9-123:39
+144            android:name="com.example.jniactivity.BluetoothActivity"
+144-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:122:13-46
+145            android:exported="true" />
+145-->C:\Users\150063\AndroidStudioProjects\jniactivity\app\src\main\AndroidManifest.xml:123:13-36
+146        <!-- Needs to be explicitly declared on P+ -->
+147        <uses-library
+147-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+148            android:name="org.apache.http.legacy"
+148-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+149            android:required="false" />
+149-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\150063\.gradle\caches\transforms-3\33211a8166f16abd2f46fa8a1bd2663d\transformed\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1287429ba99abefc606e7eae576e8ce9\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1287429ba99abefc606e7eae576e8ce9\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1287429ba99abefc606e7eae576e8ce9\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1287429ba99abefc606e7eae576e8ce9\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1522243fe1b7cb14694406dd3820ef19\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1522243fe1b7cb14694406dd3820ef19\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\150063\.gradle\caches\transforms-3\1522243fe1b7cb14694406dd3820ef19\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+162            android:authorities="com.example.jniactivity.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.0.0] C:\Users\150063\.gradle\caches\transforms-3\3783d3ad56a158fdc0f5c2ec1c63b3f5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\150063\.gradle\caches\transforms-3\497c8bbd74be69840835684dc47bdb77\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\150063\.gradle\caches\transforms-3\497c8bbd74be69840835684dc47bdb77\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\150063\.gradle\caches\transforms-3\497c8bbd74be69840835684dc47bdb77\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+170        </provider>
+171    </application>
+172
+173</manifest>
